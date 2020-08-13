@@ -1,3 +1,12 @@
+.btn-platzi {
+    background-color: #97c93e ;
+    color: antiquewhite;
+}
+
+.btn-platzi:hover {
+    background-color: #82ad36;
+}
+
 .text-platzi {
     color: #97c93e !important;
 }
