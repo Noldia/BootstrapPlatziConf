@@ -26,6 +26,7 @@
 }
 
 #carousel .overlay {
+    z-index: 1;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -35,7 +36,7 @@
     color: antiquewhite;
 }
 
-#carousel .overlay. .container,
+#carousel .overlay .container,
 #carousel .overlay .row {
     height: 100%;
 }
