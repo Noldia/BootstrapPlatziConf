@@ -14,31 +14,29 @@
 #header img {
     width: 110px;
 }
-
-#main .carousel-inner img {
-    max-height: 75vh;
+#hero-carousel img {
+    height: 85vh;
     object-fit: cover;
     filter: grayscale(70%);
 }
 
-#carousel {
-    position: relative;
-}
-
-#carousel .carousel-inner .overlay {
+.capa-hero {
+    z-index: 1;
     position: absolute;
     top: 0;
+    right: 0;
     bottom: 0;
     left: 0;
-    right: 0;
+    color: white;
     background-color: rgba(0, 0, 0, 0.5);
-    color: antiquewhite;
 }
 
-#carousel .carousel-inner .overlay .container,
-#carousel .carousel-inner .overlay .row {
+.capa-hero .container,
+.container .row {
     height: 100%;
 }
+
+
 
 #place-time {
     background-color: #343a40;
